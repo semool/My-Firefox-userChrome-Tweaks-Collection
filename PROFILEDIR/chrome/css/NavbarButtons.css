@@ -1,0 +1,185 @@
+﻿/* ####################### Back/Forward Button and Refresh in Australis Design #################################### */
+
+/* https://github.com/axydavid/FirefoxUI */
+
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Nav Buttons */
+/*[[NB]]*/
+#back-button
+{
+  list-style-image: var(--back-button-image);
+  -moz-image-region: auto !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  padding-inline-start: 4px !important;
+  background-position-x: 2px !important;
+  padding-inline-end: 0 !important;
+  background: radial-gradient(circle, #F6F6F6 64%,transparent 36%);
+  margin-right: -20px !important;
+   z-index: 10 !important;
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVQ4jWNgwAN8fX0DfH19A/CpwQm8vLwSfHx8/vv4+Pz38vJKIFuzj4/Pf29v7w2UaP7g5eVlMMQ0E4O9vb3PMzAwQKKKVM0wTB0DKPDCA0KBeD4gIECAqEAcEoYQn5RxGNJAsgEMDJAoJpQTAWaexwyACKF0AAAAAElFTkSuQmCC)!important;
+}
+
+#back-button[disabled="true"]:hover
+{
+  background: radial-gradient(circle, #F6F6F6 64%,transparent 36%) !important;
+  background-position-x: 2px !important;
+}
+
+#back-button .toolbarbutton-icon
+{
+  background-color: transparent !important;
+}
+
+#back-button:hover
+{
+  background: radial-gradient(circle, #DADADA 64%,transparent 36%) !important;
+  background-position-x: 2px !important;
+}
+
+#forward-button[disabled="true"]
+{
+  padding-left: 0px !important;
+  margin-right: -33.5px !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+#forward-button
+{
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcUlEQVQ4jWNgoBXw8vIy8PHxqQ8ICBAgV/N7Hx+f/97e3udJNsTb27vAx8fnPwyTa8gC+hri4+NzAVkxLozTEGI0IxmygfoGeHt7PyDSgAtEByZ6INJVcwHZmhkYIEnZ29v7A1makQ3x8fFpIEszKQAAoQWoCeyfArUAAAAASUVORK5CYII=)!important;
+  transition: all .1s linear !important;
+  padding-left: 11px !important;
+  margin-right: -21px !important;
+}
+
+#forward-button .toolbarbutton-icon
+{
+  transition: all .1s ease-in-out !important;
+  border: 1px solid #B3B3B3 !important;
+  border-radius: 1px 0px 0px 0px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  box-shadow: inset 12px 0px 13px -14px #B3B3B3;
+  padding-left: 9.5px !important;
+  width: 31px !important;
+  padding-right: 3.5px !important;
+  background: #F6F6F6;
+  z-index: 9 !important;
+  position: absolute !important;
+}
+
+#forward-button:hover .toolbarbutton-icon
+{
+  background: #DADADA !important;
+}
+
+#wrapper-forward-button .chromeclass-toolbar-additional
+{
+  visibility: visible !important;
+  padding-left: 10px !important;
+  margin-right: -3px !important;
+  opacity: 1 !important;
+}
+
+
+/* URLBAR */
+
+#identity-box
+{
+  padding-left: 17px !important;
+  background: hsla(0,0%,70%,.3);
+}
+
+.autocomplete-textbox
+{
+  margin-top: -5px !important;
+}
+
+#nav-bar
+{
+  height: 37px !important;
+}
+
+#urlbar
+{
+  height: 24px !important;
+  min-height: 19px !important;
+}
+
+.urlbar-textbox-container
+{
+  margin-top: -3px !important;
+}
+
+.urlbar-textbox-container .urlbar-input-box, #identity-icon-labels
+{
+  margin-top: -1px !important;
+}
+
+#page-action-buttons
+{
+  min-height: 28px !important;
+}
+
+/* RELOAD BUTTON */
+/*[[RB]]*/
+
+#page-action-buttons
+{
+  margin-right: 26px !important;
+}
+
+#stop-reload-button .toolbarbutton-icon, #stop-button .toolbarbutton-icon, #reload-button .toolbarbutton-icon
+{
+  fill: rgb(102,102,102);
+  height: 24px !important;
+  width: 28px !important;
+  padding: 4px !important;
+  position: absolute !important;
+}
+
+#stop-reload-button
+{
+  transform: translateX(-36px);
+  border-radius: 0px !important;
+  z-index: 10 !important;
+  margin-right: -32px;
+}
+
+#wrapper-stop-reload-button .chromeclass-toolbar-additional
+{
+  margin-right: 0px !important;
+  transform: translateX(0px);
+}
+
+#stop-reload-button[animate="true"]
+{
+  transform: translateX(-36px);
+  opacity: 0.8;
+}
+
+/* DO NOT CHANGE THESE */
+.toolbarbutton-1
+{
+  fill: #4C4C4C !important;
+}
+
+#urlbar[pageproxystate="valid"] > #identity-box.verifiedIdentity
+{
+  --urlbar-separator-color: rgba(18, 188, 0, 1)!important;
+  background: rgba(18,186,0,.2) !important;
+}
+
+#nav-bar-overflow-button .toolbarbutton-icon
+{
+  transform: rotate(90deg) !important;
+}
+
+.widget-overflow-list .toolbarbutton-1  > .toolbarbutton-icon
+{
+  opacity: 0.8 !important;
+}
+
+/* ############################################################################### */

@@ -1,0 +1,16 @@
+﻿/* Add Background Image to about:home and about:newtab */
+/* Increase TopSites Count: browser.newtabpage.activity-stream.topSitesCount */
+
+@-moz-document url(about:newtab),url(about:home) {
+  .activity-stream {
+     background-image: url("../image/background1.jpg") !important;
+     background-size:cover !important;
+     background-attachment: fixed !important;
+     opacity: 0.8;
+  }
+  /* @media (min-width: 1280px) {
+    .activity-stream main {
+       width: 750px !important;
+       margin-left: 800px !important;}
+  } */
+}

@@ -1,0 +1,49 @@
+﻿/* Moved container indicator ("underline") to the top, merged with the regular old tab line element */
+/* The line animates nicely to fit in with the rest of the Photon UI */
+/* The loading indicator and burst are both colored to match */
+
+/* Remove TopLine on normal Tabs */
+.tabbrowser-tab:not([usercontextid]) .tab-line[selected="true"] {
+  display: none !important;
+}
+/* ############################# */
+
+/* Move BottomLine to Top */
+.tab-bottom-line{
+  display:none!important;
+}
+.tabbrowser-tab[usercontextid] .tab-line{
+  background:var(--identity-tab-color)!important;
+  transform:scaleX(.5)!important;
+  opacity:1!important;
+  height:2px!important;
+  border-radius:0!important;
+}
+.tabbrowser-tab[usercontextid][pinned] .tab-line{
+  transform:scaleX(.55)!important;
+}
+.tabbrowser-tab[usercontextid]:not([visuallyselected]):hover .tab-line{
+  border-radius:0!important;
+  height:2px!important;
+  transform:scaleX(1)!important;
+  opacity:1!important;
+}
+.tabbrowser-tab[usercontextid][visuallyselected] .tab-line{
+  border-radius:0!important;
+  height:2px!important;
+  transform:scaleX(1)!important;
+  opacity:1!important;
+}
+
+/* Change Loading Colors */
+.tabbrowser-tab{
+  --tab-loading-fill:Highlight!important;
+}
+.tabbrowser-tab[usercontextid]{
+  --tab-loading-fill:var(--identity-tab-color)!important;
+}
+
+/* Fix Space between Tabs */
+#TabsToolbar .tabbrowser-tab {
+  margin: 0px 0.2pt 0px 0px !important;
+}

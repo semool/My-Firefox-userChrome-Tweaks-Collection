@@ -1,0 +1,9 @@
+﻿/* NEVER */
+.tab-close-button{ display: none !important; }
+
+/* ON HOVER */
+/* .tabbrowser-tab:not(:hover) 
+.tab-close-button{ display: none; }
+.tabbrowser-tab:hover 
+.tab-close-button{ display: block !important; } */
+

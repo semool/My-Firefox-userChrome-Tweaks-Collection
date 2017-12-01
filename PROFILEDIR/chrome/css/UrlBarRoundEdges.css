@@ -1,0 +1,18 @@
+﻿/* Make Urlbar round edges */
+
+#urlbar,
+#identity-box.verifiedIdentity::after,
+#identity-box.verifiedDomain::after,
+.searchbar-textbox{
+margin-left:5px!important;
+
+/* Left right round */
+/* border-radius: 2em !important} */
+
+/* Only right round */
+border-radius: 0 2em 2em 0 !important}
+
+/* Round for reload button in Urlbar with NavbarButtons.css */
+#stop-reload-button .toolbarbutton-icon, #stop-button .toolbarbutton-icon, #reload-button .toolbarbutton-icon{
+  border-radius: 0 2em 2em 0 !important;
+}

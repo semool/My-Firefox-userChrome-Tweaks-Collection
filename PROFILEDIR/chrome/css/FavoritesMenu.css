@@ -1,0 +1,34 @@
+﻿/* ########################### Favoriten Menü ###################### */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* in Tabs öffnen im Lesezeichenmenü ausblenden */
+menuitem[label="Alle in Tabs öffnen"],
+menuseparator[builder="end"],
+menuseparator[id="placesContext_openSeparator"] {
+     display: none !important; }
+
+/* menuitem[label="Lesezeichen verwalten"],
+menuseparator[builder="end"],
+menuseparator[id="placesContext_openSeparator"] {
+     display: none !important; } */
+
+menuitem[label="Lesezeichen-Sidebar anzeigen"] {
+     display: none !important; }
+
+@-moz-document url-prefix(chrome://browser/content/browser.xul){
+
+/* Ordner Lesezeichen-Symbolleiste im Menü Lesezeichen ausblenden*/
+menu[label="Lesezeichen-Symbolleiste"] {
+    display: none !important; }
+
+/* Ordner Mobile Lesezeichen im Menü Lesezeichen ausblenden*/
+menu[label="Mobile Lesezeichen"] {
+    display: none !important; }
+
+/* Entferne "Lesezeichen verwalten" am unteren Ende der Favoriten */
+#BMB_viewBookmarksSidebar,
+#BMB_bookmarksShowAll{
+display:none!important;}
+
+}
+/* ############################################################### */

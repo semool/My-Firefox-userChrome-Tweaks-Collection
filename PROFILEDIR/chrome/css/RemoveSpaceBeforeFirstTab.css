@@ -1,0 +1,9 @@
+﻿/* Remove free space before first Tab */
+.titlebar-placeholder:first-child {
+	display: none !important;
+}
+
+/* Weniger Platz vor dem min Button */
+.titlebar-placeholder:last-child {
+	max-width: 100px !important;
+}

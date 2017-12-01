@@ -1,0 +1,43 @@
+﻿/* ############# Set Firefox UI Font ############# */
+
+/* https://fonts.google.com/specimen/Arimo */
+/* @font-face { font-family: "Arimo"; src: url('../font/Arimo/Arimo-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Arimo"; src: url('../font/Arimo/Arimo-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
+* { font-family: "Arimo", "Segoe UI", "sans-serif"; } */
+
+/* https://fonts.google.com/specimen/Ubuntu */
+/* @font-face { font-family: "Ubuntu"; src: url('../font/Ubuntu/Ubuntu-Light.ttf') format('truetype'); font-style: normal; font-weight: 300; }
+@font-face { font-family: "Ubuntu"; src: url('../font/Ubuntu/Ubuntu-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Ubuntu"; src: url('../font/Ubuntu/Ubuntu-Medium.ttf') format('truetype'); font-style: normal; font-weight: 500; }
+@font-face { font-family: "Ubuntu"; src: url('../font/Ubuntu/Ubuntu-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
+* { font-family: "Ubuntu", "Segoe UI", "sans-serif"; } */
+
+/* https://fonts.google.com/specimen/Open+Sans */
+@font-face { font-family: "Open Sans"; src: url('../font/OpenSans/OpenSans-Light.ttf') format('truetype'); font-style: normal; font-weight: 300; }
+@font-face { font-family: "Open Sans"; src: url('../font/OpenSans/OpenSans-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Open Sans"; src: url('../font/OpenSans/OpenSans-SemiBold.ttf') format('truetype'); font-style: normal; font-weight: 600; }
+@font-face { font-family: "Open Sans"; src: url('../font/OpenSans/OpenSans-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
+* { font-family: "Open Sans", "Segoe UI", "sans-serif"; }
+
+/* https://fonts.google.com/specimen/Roboto */
+/* @font-face { font-family: "Roboto"; src: url('../font/Roboto/Roboto-Light.ttf') format('truetype'); font-style: normal; font-weight: 300; }
+@font-face { font-family: "Roboto"; src: url('../font/Roboto/Roboto-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Roboto"; src: url('../font/Roboto/Roboto-Medium.ttf') format('truetype'); font-style: normal; font-weight: 500; }
+@font-face { font-family: "Roboto"; src: url('../font/Roboto/Roboto-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
+* { font-family: "Roboto", "Segoe UI", "sans-serif"; } */
+
+/* https://fonts.google.com/specimen/Fira+Sans */
+/* @font-face { font-family: "Fira Sans"; src: url('../font/FiraSans/FiraSans-ExtraLight.ttf') format('truetype'); font-style: normal; font-weight: 200; }
+@font-face { font-family: "Fira Sans"; src: url('../font/FiraSans/FiraSans-Light.ttf') format('truetype'); font-style: normal; font-weight: 300; }
+@font-face { font-family: "Fira Sans"; src: url('../font/FiraSans/FiraSans-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+@font-face { font-family: "Fira Sans"; src: url('../font/FiraSans/FiraSans-Medium.ttf') format('truetype'); font-style: normal; font-weight: 500; }
+@font-face { font-family: "Fira Sans"; src: url('../font/FiraSans/FiraSans-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
+* { font-family: "Fira Sans", "Segoe UI", "sans-serif"; } */
+
+/* ################### DONT CHANGE ################### */
+
+@-moz-document url-prefix("http:"),url-prefix("https:") {
+  * {
+    font-family: inherit;
+  }
+}
