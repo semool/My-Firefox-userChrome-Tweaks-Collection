@@ -11,14 +11,15 @@
   list-style-image: var(--back-button-image);
   -moz-image-region: auto !important;
   border-radius: 0 !important;
-  padding: 0 !important;
+  padding:0!important;
   padding-inline-start: 4px !important;
   background-position-x: 2px !important;
   padding-inline-end: 0 !important;
   background: radial-gradient(circle, #F6F6F6 64%,transparent 36%);
   margin-right: -20px !important;
-   z-index: 10 !important;
-  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVQ4jWNgwAN8fX0DfH19A/CpwQm8vLwSfHx8/vv4+Pz38vJKIFuzj4/Pf29v7w2UaP7g5eVlMMQ0E4O9vb3PMzAwQKKKVM0wTB0DKPDCA0KBeD4gIECAqEAcEoYQn5RxGNJAsgEMDJAoJpQTAWaexwyACKF0AAAAAElFTkSuQmCC)!important;
+  z-index: 10 !important;
+  list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAb0lEQVQ4jWNgwAN8fX0DfH19A/CpwQm8vLwSfHx8/vv4+Pz38vJKIFuzj4/Pf29v7w2UaP7g5eVlMMQ0E4O9vb3PMzAwQKKKVM0wTB0DKPDCA0KBeD4gIECAqEAcEoYQn5RxGNJAsgEMDJAoJpQTAWaexwyACKF0AAAAAElFTkSuQmCC) !important;
+  /*! line-height: 10px !important; */
 }
 
 #back-button[disabled="true"]:hover
@@ -66,7 +67,7 @@
   width: 31px !important;
   padding-right: 3.5px !important;
   background: #F6F6F6;
-  z-index: 9 !important;
+  z-index: 0 !important;
   position: absolute !important;
 }
 
@@ -82,7 +83,6 @@
   margin-right: -3px !important;
   opacity: 1 !important;
 }
-
 
 /* URLBAR */
 
@@ -181,5 +181,3 @@
 {
   opacity: 0.8 !important;
 }
-
-/* ############################################################################### */
