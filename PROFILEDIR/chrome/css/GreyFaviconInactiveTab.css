@@ -1,5 +1,8 @@
 ﻿/* favicon gray on inactive Tab */
 
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
 .tab-icon:not([selected="true"]), .tab-icon-image:not([selected="true"]) {
   filter: grayscale(1) brightness(0.5) contrast(1) invert(1) blur(0.2px) opacity(0.5);
 }

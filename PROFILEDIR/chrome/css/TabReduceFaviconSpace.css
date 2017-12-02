@@ -1,5 +1,8 @@
 ﻿/* Platz um das Favicon im Tab verringern */
 
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
 .tab-throbber:not([pinned]), .tab-sharing-icon-overlay:not([pinned]), .tab-icon-image:not([pinned]) {
     margin-inline-end: 4px !important;
     margin-left: -4px !important;

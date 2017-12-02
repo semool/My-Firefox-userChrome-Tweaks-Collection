@@ -1,5 +1,8 @@
 ﻿/* text gray on inactive Tab */
 
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
 #tabbrowser-tabs > .tabbrowser-tab:not([visuallyselected="true"]) .tab-label {
   filter: brightness(0.5) opacity(0.5);
 }

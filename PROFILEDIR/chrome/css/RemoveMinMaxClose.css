@@ -1,5 +1,7 @@
 ﻿/* ########################### Remove Min Max Close Button ###################### */
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 #titlebar-min {display: none !important;}
 #titlebar-max {display: none !important;}

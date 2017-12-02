@@ -1,5 +1,7 @@
 ﻿/* ########################### Favoriten Menü ###################### */
-@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
 /* in Tabs öffnen im Lesezeichenmenü ausblenden */
 menuitem[label="Alle in Tabs öffnen"],

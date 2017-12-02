@@ -1,5 +1,8 @@
 ﻿/* ############# Set Firefox UI Font ############# */
 
+/* Do not remove the @namespace line -- it's required for correct functioning */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
 /* https://fonts.google.com/specimen/Arimo */
 /* @font-face { font-family: "Arimo"; src: url('../font/Arimo/Arimo-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
 @font-face { font-family: "Arimo"; src: url('../font/Arimo/Arimo-Bold.ttf') format('truetype'); font-style: normal; font-weight: 700; }
