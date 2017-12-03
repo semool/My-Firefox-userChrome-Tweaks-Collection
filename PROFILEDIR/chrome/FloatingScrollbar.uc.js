@@ -41,23 +41,23 @@ var css = '\
     pointer-events: auto;\
 }\
 :not(select):not(hbox) > scrollbar[orient = "vertical"] {\
-    width: 16px!important;\
-    -moz-margin-start: -16px;/*margin to fill the whole render window with content and overlay the scrollbars*/\
+    width: 12px!important;\
+    -moz-margin-start: -12px;/*margin to fill the whole render window with content and overlay the scrollbars*/\
 }\
 :not(select):not(hbox) > scrollbar[orient = "horizontal"] {\
-    height: 16px!important;\
-    margin-top: -16px;\
+    height: 12px!important;\
+    margin-top: -12px;\
 }\
 :not(select):not(hbox) > scrollbar[orient = "vertical"] thumb {\
     border-left: 2px solid rgba(90, 90, 90, 0.75);\
-    min-height: 16px;\
-    transform: translate(12px, 0px);\
+    min-height: 12px;\
+    transform: translate(8px, 0px);\
     transition: transform 0.1s linear;\
 }\
 :not(select):not(hbox) > scrollbar[orient = "horizontal"] thumb {\
     border-top: 2px solid rgba(90, 90, 90, 0.75);\
-    min-width: 16px;\
-    transform: translate(0px, 12px);\
+    min-width: 12px;\
+    transform: translate(0px, 8px);\
     transition: transform 0.1s linear;\
 }\
 :not(select):not(hbox) > scrollbar:hover {\
