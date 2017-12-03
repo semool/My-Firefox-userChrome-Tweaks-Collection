@@ -67,7 +67,7 @@
   width: 31px !important;
   padding-right: 3.5px !important;
   background: #F6F6F6;
-  z-index: 0 !important;
+  z-index: 9 !important;
   position: absolute !important;
 }
 
