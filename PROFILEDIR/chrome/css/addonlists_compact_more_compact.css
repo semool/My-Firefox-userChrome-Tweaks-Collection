@@ -8,9 +8,34 @@
 
 @-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xul), url-prefix(about:addons) {
 
-	.addon{
-	  padding-top: unset !important;
-	  padding-bottom: unset !important;
-	}
+  .addon {
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+  }
+
+  .addon .icon {
+    width: 32px !important;
+    height: 32px !important;
+  }
+
+  .addon .warning,
+  .addon .error,
+  .addon .pending,
+  .addon .icon-container {
+    width: unset !important;
+    height: unset !important;
+  }
+
+  .addon .name-container .name {
+    font-size:90% !important;
+  }
+
+  .description {
+    font-size:80% !important;
+  }
+
+  .description-container .button-link .button-box {
+    display: none !important;
+  }
 
 }
