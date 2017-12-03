@@ -26,6 +26,7 @@
   border-radius:0!important;
   height:2px!important;
   transform:scaleX(1)!important;
+  transition: 100ms !important;
   opacity:1!important;
 }
 .tabbrowser-tab[usercontextid][visuallyselected] .tab-line{
