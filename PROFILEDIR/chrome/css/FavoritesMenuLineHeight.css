@@ -1,0 +1,13 @@
+﻿@-moz-document url-prefix(chrome://browser/content/browser.xul){
+
+  /* Zeilenhöhe im Lesezeichen Menü */
+  #BMB_bookmarksShowAll,
+  #BMB_viewBookmarksSidebar,
+  #BMB_subscribeToPageMenuitem,
+  #BMB_bookmarksPopup  menu.bookmark-item,
+  #BMB_bookmarksPopup  menuitem.bookmark-item {
+    min-height:23px !important;
+    height:23px !important;
+  }
+
+}
