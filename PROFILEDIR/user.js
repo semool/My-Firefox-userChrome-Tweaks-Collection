@@ -19,3 +19,5 @@ user_pref("browser.ping-centre.telemetry", false);
 user_pref("geo.enabled", false);
 user_pref("browser.search.countryCode", "DE");
 user_pref("browser.search.region", "DE");
+user_pref("network.http.referer.defaultPolicy", 2);
+user_pref("security.insecure_connection_icon.enabled", true);
