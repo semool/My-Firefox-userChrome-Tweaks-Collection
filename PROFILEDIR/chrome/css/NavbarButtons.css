@@ -75,6 +75,7 @@
   background: #F6F6F6;
   z-index: 9 !important;
   position: absolute !important;
+  height: 24px !important;
 }
 
 #forward-button:hover .toolbarbutton-icon
