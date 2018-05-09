@@ -14,7 +14,7 @@ user_pref("datareporting.healthreport.uploadEnabled", false);
 user_pref("experiments.activeExperiment", false);
 user_pref("experiments.enabled", false);
 user_pref("experiments.supported", false);
-user_pref("browser.newtabpage.activity-stream.topSitesCount", 30);
+user_pref("browser.newtabpage.activity-stream.topSitesRows", 5);
 user_pref("browser.ping-centre.telemetry", false);
 user_pref("geo.enabled", false);
 user_pref("browser.search.countryCode", "DE");
