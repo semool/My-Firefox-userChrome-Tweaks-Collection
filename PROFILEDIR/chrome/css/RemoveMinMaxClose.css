@@ -1,4 +1,4 @@
-﻿/* ########################### Remove Min Max Close Button ###################### */
+/* ########################### Remove Min Max Close Button ###################### */
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
 #titlebar-min {display: none !important;}

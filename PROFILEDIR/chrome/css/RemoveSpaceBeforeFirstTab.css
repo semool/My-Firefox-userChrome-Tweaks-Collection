@@ -1,4 +1,4 @@
-﻿/* Remove free space before first Tab */
+/* Remove free space before first Tab */
 .titlebar-placeholder:first-child {
 	display: none !important;
 }

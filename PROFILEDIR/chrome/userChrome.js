@@ -1,2 +1,2 @@
-﻿/* userChrome.ignoreCache = true; */
+/* userChrome.ignoreCache = true; */
 userChrome.import("*", "UChrm");

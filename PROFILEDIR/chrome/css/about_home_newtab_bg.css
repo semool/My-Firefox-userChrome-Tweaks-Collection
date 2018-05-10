@@ -1,4 +1,4 @@
-﻿/* Add Background Image to about:home and about:newtab */
+/* Add Background Image to about:home and about:newtab */
 /* Increase TopSites Count: browser.newtabpage.activity-stream.topSitesCount */
 
 @-moz-document url(about:newtab),url(about:home) {

@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name           FloatingScrollbar.uc.js
 // @namespace      nightson1988@gmail.com
 // @include        main

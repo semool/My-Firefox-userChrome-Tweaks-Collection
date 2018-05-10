@@ -1,4 +1,4 @@
-﻿/* About Dialog */
+/* About Dialog */
 @-moz-document url-prefix("chrome://browser/content/aboutDialog.xul"){
   #version:after {
     content: '\A CSS Tweaks: goo.gl/tFdiQL' !important;

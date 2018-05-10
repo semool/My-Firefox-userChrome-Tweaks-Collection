@@ -1,4 +1,4 @@
-﻿//RestartFirefox.uc.js
+//RestartFirefox.uc.js
 //v. 0.4
 
 /* File Menu */

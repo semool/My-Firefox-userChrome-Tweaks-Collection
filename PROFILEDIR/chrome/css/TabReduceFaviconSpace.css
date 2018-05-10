@@ -1,4 +1,4 @@
-﻿/* Platz um das Favicon im Tab verringern */
+/* Platz um das Favicon im Tab verringern */
 
 .tab-throbber:not([pinned]), .tab-sharing-icon-overlay:not([pinned]), .tab-icon-image:not([pinned]) {
     margin-inline-end: 4px !important;

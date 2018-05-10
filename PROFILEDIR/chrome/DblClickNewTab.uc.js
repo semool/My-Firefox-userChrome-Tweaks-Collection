@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
 
 /* Neuen Tab per Doppelklick öffnen *******************************************/ 
 gBrowser.tabContainer.addEventListener('dblclick', function(event) {

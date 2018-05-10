@@ -3,7 +3,6 @@
 // @startup        window.tab_hover.onLoad();
 // @shutdown       window.tab_hover.onUnload();
 // @version        2014.8.23
-// @note           修改为无需重启的方式
 // ==/UserScript==
 
 if (window.tab_hover) {
@@ -20,8 +19,6 @@ window.tab_hover = {
     onLoad: function() {
         gBrowser.tabContainer.addEventListener("mouseout", tab_hover.onMouseOut, false);
         gBrowser.tabContainer.addEventListener("mouseover", tab_hover.onMouseOver, false);
-
-        // 右键点击则暂停 focus，但由于点击的相应时间问题，可能会更混乱
         // gBrowser.tabContainer.addEventListener("click", tab_hover.onMouseClicked, false);
     },
     onUnload: function() {

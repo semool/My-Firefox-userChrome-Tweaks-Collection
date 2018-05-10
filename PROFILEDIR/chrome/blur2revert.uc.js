@@ -1,4 +1,4 @@
-﻿// ==UserScript==
+// ==UserScript==
 // @name        url bar blur to revert
 // @namespace   blur2revert@zbinlin.gmail.com
 // @filename    blur2revert.uc.js
