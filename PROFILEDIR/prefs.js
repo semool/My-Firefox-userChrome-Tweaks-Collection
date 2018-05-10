@@ -1,4 +1,4 @@
-﻿user_pref("browser.onboarding.enabled", false);
+user_pref("browser.onboarding.enabled", false);
 user_pref("browser.newtabpage.activity-stream.migrationExpired", true);
 user_pref("browser.newtabpage.activity-stream.feeds.section.highlights", false);
 user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);

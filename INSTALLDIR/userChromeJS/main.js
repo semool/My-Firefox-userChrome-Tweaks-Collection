@@ -64,7 +64,7 @@ let UserChrome_js = {
           let path = OS.Path.join(ucjsDirPath, "utilities.js");
           this.utilFileURI = OS.Path.toFileURI(path);
           this.ucFileURI = OS.Path.toFileURI(ucFilePath);
-//        Services.obs.addObserver(this, "domwindowopened", false);
+        // Services.obs.addObserver(this, "domwindowopened", false);
         };
         Services.obs.removeObserver(this, "final-ui-startup");
         break;

@@ -1,4 +1,4 @@
-﻿user_pref("media.peerconnection.enabled", false);
+user_pref("media.peerconnection.enabled", false);
 user_pref("toolkit.telemetry.archive.enabled", false);
 user_pref("toolkit.telemetry.bhrPing.enabled", false);
 user_pref("toolkit.telemetry.firstShutdownPing.enabled", false);

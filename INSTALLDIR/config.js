@@ -1,4 +1,4 @@
-﻿//
+//
 // config.js
 
 const Cu = Components.utils;
