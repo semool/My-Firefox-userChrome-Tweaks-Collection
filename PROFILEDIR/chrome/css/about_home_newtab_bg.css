@@ -15,9 +15,8 @@
     }
   }
 
-  .search-wrapper:active input, .search-wrapper input:focus {
-    border-color: white !important;
-    box-shadow: 0 0 0 1px grey !important;
+  .search-wrapper {
+    padding: 0 0 0px !important;
   }
 
 }
