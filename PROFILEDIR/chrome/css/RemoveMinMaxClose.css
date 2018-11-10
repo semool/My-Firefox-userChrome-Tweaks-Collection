@@ -5,5 +5,10 @@
 #titlebar-max {display: none !important;}
 #titlebar-close {display: none !important;}
 
+/* Code for >=FF65 */
+.titlebar-min {display: none !important;}
+.titlebar-max {display: none !important;}
+.titlebar-close {display: none !important;}
+
 /* For Fullscreen Mode */
 #window-controls { display:none!important; }
