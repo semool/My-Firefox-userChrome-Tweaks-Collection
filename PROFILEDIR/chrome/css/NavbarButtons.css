@@ -75,7 +75,7 @@
   background: #F6F6F6;
   z-index: 9 !important;
   position: absolute !important;
-  height: 24px !important;
+  height: 28px !important;
 }
 
 #forward-button:hover .toolbarbutton-icon
@@ -111,18 +111,8 @@
 
 #urlbar
 {
-  height: 24px !important;
+  height: 28px !important;
   min-height: 19px !important;
-}
-
-.urlbar-textbox-container
-{
-  margin-top: -3px !important;
-}
-
-.urlbar-textbox-container .urlbar-input-box, #identity-icon-labels
-{
-  margin-top: -1px !important;
 }
 
 #page-action-buttons
@@ -141,7 +131,7 @@
 #stop-reload-button .toolbarbutton-icon, #stop-button .toolbarbutton-icon, #reload-button .toolbarbutton-icon
 {
   fill: rgb(102,102,102);
-  height: 24px !important;
+  height: 28px !important;
   width: 28px !important;
   padding: 4px !important;
   position: absolute !important;
