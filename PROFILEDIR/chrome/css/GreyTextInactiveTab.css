@@ -1,5 +1,5 @@
 /* text gray on inactive Tab */
 
-#tabbrowser-tabs > .tabbrowser-tab:not([visuallyselected="true"]) .tab-label {
-  filter: brightness(0.5) opacity(0.5);
+.tabbrowser-tab:not([visuallyselected="true"]) .tab-label {
+  filter: grayscale(1) brightness(0.5) opacity(0.5);
 }

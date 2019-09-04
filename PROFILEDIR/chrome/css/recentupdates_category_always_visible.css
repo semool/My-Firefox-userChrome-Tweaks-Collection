@@ -6,7 +6,7 @@
 /* Github: https://github.com/aris-t2/customcssforfx ************************************/
 /****************************************************************************************/
 
-@-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xul), url-prefix(about:addons) {
+@-moz-document url-prefix(chrome://mozapps/content/extensions/extensions.xhtml), url-prefix(about:addons) {
 
 	#category-recentUpdates[disabled] {
 	  opacity: 1 !important;

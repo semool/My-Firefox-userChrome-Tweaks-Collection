@@ -3,7 +3,7 @@
 
 /* File Menu */
 (function() {
-    var menuitem = document.createElement('menuitem');
+    var menuitem = document.createXULElement('menuitem');
     menuitem.id = 'uc_menu_Restart';
     menuitem.setAttribute('label' , 'Neustart');
     menuitem.setAttribute('oncommand' , "Services.appinfo.invalidateCachesOnRestart() || BrowserUtils.restartApplication();");
@@ -13,7 +13,7 @@
 
 /* Hamburger Menu */
 (function() {
-    var menuitem = document.createElement('toolbarbutton');
+    var menuitem = document.createXULElement('toolbarbutton');
     menuitem.id = 'uc_menu_Restart_H';
     menuitem.classList.add('subviewbutton', 'subviewbutton-iconic');
     menuitem.setAttribute('label' , 'Neustart');
@@ -26,7 +26,7 @@
 
 /* Button */
 (function() {
-    if (location != 'chrome://browser/content/browser.xul') return;
+    if (location != 'chrome://browser/content/browser.xhtml') return;
     try {
         CustomizableUI.createWidget({
             id: 'restart-button',

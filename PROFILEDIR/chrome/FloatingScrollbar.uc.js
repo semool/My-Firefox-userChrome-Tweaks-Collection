@@ -84,7 +84,7 @@ var css = '\
     var uri = makeURI('data:text/css;charset=UTF=8,' + encodeURIComponent(css));
 
     var p = document.getElementById('devToolsSeparator');
-    var m = document.createElement('menuitem');
+    var m = document.createXULElement('menuitem');
     m.setAttribute('label', "Schwebende Scrollbar");
     m.setAttribute('type', 'checkbox');
     m.setAttribute('autocheck', 'false');

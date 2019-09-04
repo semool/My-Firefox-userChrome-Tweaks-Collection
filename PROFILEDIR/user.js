@@ -21,3 +21,4 @@ user_pref("browser.search.countryCode", "DE");
 user_pref("browser.search.region", "DE");
 user_pref("network.http.referer.defaultPolicy", 2);
 user_pref("security.insecure_connection_icon.enabled", true);
+user_pref("browser.tabs.closeTabByDblclick", true);

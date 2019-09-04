@@ -8,7 +8,7 @@
 // @updateURL     https://j.mozest.com/ucscript/script/39.meta.js
 // ==/UserScript==
 
-if (location == "chrome://browser/content/browser.xul") {
+if (location == "chrome://browser/content/browser.xhtml") {
 
     var ub = document.getElementById("urlbar");
     ub.addEventListener("blur", function () {

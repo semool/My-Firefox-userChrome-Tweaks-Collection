@@ -15,7 +15,7 @@ menuseparator[id="placesContext_openSeparator"] {
 menuitem[label="Lesezeichen-Sidebar anzeigen"] {
      display: none !important; }
 
-@-moz-document url-prefix(chrome://browser/content/browser.xul){
+@-moz-document url-prefix(chrome://browser/content/browser.xhtml){
 
 /* Ordner Lesezeichen-Symbolleiste im Menü Lesezeichen ausblenden*/
 menu[label="Lesezeichen-Symbolleiste"] {
